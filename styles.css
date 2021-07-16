@@ -50,9 +50,14 @@ main{
     margin-top: 10px;
 }
 
-.producto_precio{
+.producto_name{
     color: white;
     font-size: 2.5rem;
+}
+
+.producto_precio{
+    color: white;
+    font-size: 1.5rem;
 }
 
 .producto_img{
@@ -124,7 +129,7 @@ main{
     /* min-height: 100px; */
 
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1px;
 }
 
