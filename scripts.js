@@ -22,7 +22,7 @@ function eventlisteners() {
 //Funciones
 
 function addProduct(e) {
-  if (e.target.className == "producto_btn") {
+  if (e.target.classList.contains("producto_btn") ) {
     //Extraer data de producto
     let productData = readProductData(e.target.parentElement);
 

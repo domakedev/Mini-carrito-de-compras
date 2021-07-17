@@ -1,0 +1,26 @@
+{
+  "name": "mini-carrito-de-compras",
+  "version": "1.0.0",
+  "description": "Carrito de compras re basico",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss  tailwindcss.css -o styleTailwindcss.css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domakedev/Mini-carrito-de-compras.git"
+  },
+  "author": "domakedev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/domakedev/Mini-carrito-de-compras/issues"
+  },
+  "homepage": "https://github.com/domakedev/Mini-carrito-de-compras#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.4"
+  }
+}

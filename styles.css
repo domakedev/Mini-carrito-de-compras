@@ -1,3 +1,5 @@
+
+
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -135,9 +137,12 @@ main{
 
 .carrito_vaciarBtn{
     grid-area:carrito_vaciarBtn;
-    background-color:rgb(0, 140, 255);
 
     width: 100%;
+}
+
+.carrito_vaciarBtn:active{
+    background-color:rgb(255, 0, 128);
 
 }
 
